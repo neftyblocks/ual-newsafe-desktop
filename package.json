@@ -33,9 +33,23 @@
     "dependencies": {
         "@greymass/eosio": "0.6.9",
         "anchor-link": "3.5.1",
-        "anchor-link-browser-transport": "3.5.1",
+        "newsafe-link-browser-transport": "^0.1.0",
         "eosjs": "22.1.0",
         "universal-authenticator-library": "0.3.0"
     },
-    "gitHead": "d2557172bc67a870b82f217715d43e99dd9ea759"
+    "devDependencies": {
+        "@types/elliptic": "^6.4.14",
+        "@types/node": "^18.7.18",
+        "@typescript-eslint/eslint-plugin": "5.38.0",
+        "@typescript-eslint/parser": "5.38.0",
+        "@vue/eslint-config-prettier": "7.0.0",
+        "@vue/eslint-config-typescript": "11.0.1",
+        "eslint": "^8.23.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-vue": "9.5.1",
+        "lerna": "^5.5.2",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.3",
+        "unbuild": "^0.8.11"
+    }
 }
