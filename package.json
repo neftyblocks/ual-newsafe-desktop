@@ -1,0 +1,41 @@
+{
+    "name": "ual-newsafe-desktop",
+    "version": "0.2.5",
+    "description": "Newsafe wallet for Nuxt3",
+    "license": "MIT",
+    "private": false,
+    "author": {
+        "name": "NeftyBlocks",
+        "url": "https://neftyblocks.com"
+    },
+    "contributors": [
+        "Aaron Cox",
+        "Johan Nordberg",
+        "José Andrade",
+        "Max van der Schee",
+        "Javier Pérez"
+    ],
+    "scripts": {
+        "build": "unbuild",
+        "lint": "eslint --ext .ts,.vue --ignore-path .gitignore --fix .",
+        "format": "prettier .  --write"
+    },
+    "exports": {
+        ".": {
+            "import": "./lib/index.mjs",
+            "require": "./lib/index.cjs",
+            "types": "./lib/index.d.ts"
+        }
+    },
+    "main": "lib/index.cjs",
+    "types": "lib/index.d.ts",
+    "module": "lib/index.mjs",
+    "dependencies": {
+        "@greymass/eosio": "0.6.9",
+        "anchor-link": "3.5.1",
+        "anchor-link-browser-transport": "3.5.1",
+        "eosjs": "22.1.0",
+        "universal-authenticator-library": "0.3.0"
+    },
+    "gitHead": "d2557172bc67a870b82f217715d43e99dd9ea759"
+}
