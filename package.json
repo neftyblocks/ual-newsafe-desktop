@@ -1,6 +1,6 @@
 {
     "name": "ual-newsafe-desktop",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Newsafe wallet for Nuxt3",
     "license": "MIT",
     "private": false,
